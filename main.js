@@ -39,10 +39,10 @@ Pomodoro.prototype = {
 
 	changeStateEffects: function() {
 		if (this.state.counting) {
-			this.toggleEl.className = 'toggle-timer start';
+			this.toggleEl.className = 'toggle-timer pause';
 			this.toggleEl.textContent = 'Pause';
 		} else {
-			this.toggleEl.className = 'toggle-timer pause';
+			this.toggleEl.className = 'toggle-timer start';
 			this.toggleEl.textContent = 'Start';
 		}
 
@@ -195,5 +195,5 @@ Pomodoro.prototype = {
 };
 
 window.onload = function() {
-	var p = new Pomodoro(1);
+	var p = new Pomodoro(12);
 };
