@@ -1,0 +1,20 @@
+{
+  "name": "pomodora-simple",
+  "version": "1.0.0",
+  "description": "This is a simple countdown",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://headgasket@bitbucket.org/headgasket/pomodoro-timer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/headgasket/pomodoro-timer#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
