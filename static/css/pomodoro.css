@@ -54,3 +54,108 @@
 .pomodoro .controls button.clear-timer {
   color: #000000;
 }
+
+/* Info */
+#info-img {
+	width: 2em;
+	position: absolute;
+	top: 2em;
+	right: 2em;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+	font-family: 'Roboto', helvetica;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+	color: #f44336;
+}
+.popup .content {
+  max-height: 90%;
+  overflow: auto;
+}
+
+/* Shortcut table */
+.popup .content table {
+	width: 70%;
+	float: left;
+}
+
+.popup .content table th,
+.popup .content table td {
+	padding: 0.5em;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.popup .content table tr:hover {
+	/* background-color: #555; */
+}
+
+.popup .content table tr:nth-child(even) {
+	/* background-color: #f2f2f2; */
+}
+
+.popup .content table td.shortcut-key {
+	font-size: 1.6em;
+}
+
+#log-button-wrapper {
+	width: 30%;
+	float: right;
+	margin-top: 25%;
+	text-align: center;
+}
+
+#log-button-wrapper button {
+  border: none;
+  width: 200px;
+  font-size: 42px;
+  margin-top: 20px;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #4CAF50;
+  transition: all 1000ms ease;
+}
+#log-button-wrapper button:active {
+  border: none;
+  opacity: 0.7;
+  transform: scale(.97);
+  transition: all 100ms ease;
+}

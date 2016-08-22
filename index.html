@@ -3,18 +3,11 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css' />
 		<link rel="stylesheet" type="text/css" href="static/css/pomodoro.css" />
 		<script src="lib/main.js"></script>
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-75916134-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
 	</head>
 	<body>
+		<a id="info-link" href="#info">
+			<img id="info-img" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEzOSAxMzkiIGhlaWdodD0iMTM5cHgiIGlkPSJMYXllcl8yIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMzkgMTM5IiB3aWR0aD0iMTM5cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxwYXRoIGQ9Ik05Mi42NzQsMTEyLjI0N2wtMS41NTksNi4zNzNjLTQuNjc3LDEuODQ2LTguNDEzLDMuMjUxLTExLjE5NSw0LjIxN2MtMi43ODUsMC45NjktNi4wMjEsMS40NTEtOS43MDgsMS40NTEgIGMtNS42NjIsMC0xMC4wNjYtMS4zODctMTMuMjA3LTQuMTQyYy0zLjE0MS0yLjc2Ni00LjcxMi02LjI3MS00LjcxMi0xMC41MjNjMC0xLjY0NiwwLjExNC0zLjMzOSwwLjM1MS01LjA2NCAgYzAuMjM5LTEuNzI3LDAuNjE5LTMuNjcyLDEuMTM5LTUuODQ2bDUuODQ1LTIwLjY4OGMwLjUyLTEuOTgxLDAuOTYyLTMuODU4LDEuMzE2LTUuNjMzYzAuMzU5LTEuNzY0LDAuNTMyLTMuMzg3LDAuNTMyLTQuODQ4ICBjMC0yLjY0Mi0wLjU0Ny00LjQ5LTEuNjM2LTUuNTI5Yy0xLjA4OS0xLjAzNi0zLjE2Ny0xLjU2Mi02LjI1Mi0xLjU2MmMtMS41MTEsMC0zLjA2NCwwLjI0Mi00LjY0NywwLjcxICBjLTEuNTksMC40Ny0yLjk0OSwwLjkyNC00LjA5LDEuMzQ2bDEuNTYzLTYuMzc4YzMuODI5LTEuNTU5LDcuNDg5LTIuODk0LDEwLjk5LTQuMDAyYzMuNTAxLTEuMTExLDYuODA5LTEuNjY3LDkuOTM4LTEuNjY3ICBjNS42MjMsMCw5Ljk2MiwxLjM1OSwxMy4wMDksNC4wNzdjMy4wNDcsMi43Miw0LjU3LDYuMjQ2LDQuNTcsMTAuNTkxYzAsMC44OTktMC4xLDIuNDgzLTAuMzE1LDQuNzQ3ICBjLTAuMjEsMi4yNjktMC42MDEsNC4zNDgtMS4xNzEsNi4yMzlsLTUuODIsMjAuNjA1Yy0wLjQ3NywxLjY1NS0wLjkwNiwzLjU0Ny0xLjI3OSw1LjY3NmMtMC4zODUsMi4xMTUtMC41NjksMy43MzEtMC41NjksNC44MTUgIGMwLDIuNzM2LDAuNjEsNC42MDQsMS44MzMsNS41OTdjMS4yMzIsMC45OTMsMy4zNTQsMS40ODcsNi4zNjgsMS40ODdjMS40MTUsMCwzLjAyNS0wLjI1MSw0LjgxNC0wLjc0NCAgQzkwLjU2NywxMTMuMDU5LDkxLjg2OCwxMTIuNjI2LDkyLjY3NCwxMTIuMjQ3eiBNOTQuMTUxLDI1Ljc0MWMwLDMuNTktMS4zNTMsNi42NTYtNC4wNzIsOS4xNzdjLTIuNzEyLDIuNTMtNS45OCwzLjc5Ni05LjgwMywzLjc5NiAgYy0zLjgzNSwwLTcuMTExLTEuMjY2LTkuODU0LTMuNzk2Yy0yLjczOC0yLjUyMi00LjExLTUuNTg3LTQuMTEtOS4xNzdjMC0zLjU4MywxLjM3Mi02LjY1NCw0LjExLTkuMjA3ICBjMi43MzgtMi41NDksNi4wMi0zLjgyMyw5Ljg1NC0zLjgyM2MzLjgyMiwwLDcuMDkxLDEuMjc3LDkuODAzLDMuODIzQzkyLjc5OSwxOS4wODcsOTQuMTUxLDIyLjE1OSw5NC4xNTEsMjUuNzQxeiIvPjwvc3ZnPg==" />
+		</a>
 		<div class="pomodoro">
 			<div id="display-time" class="display-time"></div>
 			<div class="controls">
@@ -27,5 +20,74 @@
 			<source src="static/sound.ogg" type="audio/ogg">
 			<source src="static/sound.mp3" type="audio/mpeg">
 		</audio>
+
+		<div id="info" class="overlay">
+			<div class="popup">
+				<a class="close" href="#">&times;</a>
+				<div class="content">
+					<table>
+						<thead>
+							<th>Shortcut Key</th>
+							<th>Description</th>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="shortcut-key">s</td>
+								<td class="shortcut-desc">Start the countdown</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">p</td>
+								<td class="shortcut-desc">Pause the countdown</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">c</td>
+								<td class="shortcut-desc">Clear the countdown</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">&uarr;</td>
+								<td class="shortcut-desc">Increase countdown by a minute</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">&darr;</td>
+								<td class="shortcut-desc">Decrease countdown by a minute</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">1</td>
+								<td class="shortcut-desc">Start a 10 minutes countdown</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">2</td>
+								<td class="shortcut-desc">Start a 2 minutes countdown</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">3</td>
+								<td class="shortcut-desc">Start a 25 minutes countdown</td>
+							</tr>
+							<tr>
+								<td class="shortcut-key">Custom Time</td>
+								<td class="shortcut-desc">Change url to <strong>/#10</strong> for 10 minutes e.g 
+									<span><a href="/#5">/#5</a></span>
+									<span><a href="/#15">/#15</a></span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<div id="log-button-wrapper">
+						<button>Logs</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-75916134-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
